@@ -1,6 +1,5 @@
 import java.awt.event.KeyEvent;
 import java.awt.*;
-
 public class Reketa 
 {
    int x_position, y_position, y_direction;

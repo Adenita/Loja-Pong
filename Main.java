@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.Window.Type;
 
 public class Main { 
-
+   
    private JFrame window;
    private JFrame instructions;
    private JTextField textField1, textField2;

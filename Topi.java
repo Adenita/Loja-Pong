@@ -29,7 +29,6 @@ public class Topi
         if(randomy == 0) 
             randomy--;
         setDrejtimiX(randomy * 4);
-
     }
 
     public void draw(Graphics g)

@@ -29,7 +29,6 @@ public class PongPaneli extends JPanel implements Runnable
      
         gameThread = new Thread(this);
         gameThread.start();
-
     }
 
     public void getReketa()

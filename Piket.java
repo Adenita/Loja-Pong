@@ -30,6 +30,7 @@ public class Piket
 
         g2.setColor(Color.white);
         g2.setFont(new Font("Georgia", Font.PLAIN, 30));
+        
         g2.drawString(emri1, 10, 490);
         g2.drawString(emri2, 780 - emri2.length() * 6, 490);
         

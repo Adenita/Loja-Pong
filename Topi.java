@@ -14,7 +14,7 @@ public class Topi
     {
         this.pozitaX = pozitaX;
         this.pozitaY = pozitaY;
-        levizX = 2;
+        levizX = 4;
         levizY = 1;
         this.color = color;
         random = new Random();

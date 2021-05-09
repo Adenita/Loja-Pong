@@ -79,17 +79,17 @@ public class PongPaneli extends JPanel implements Runnable
     public void checkCollision() 
     {
         //Ktehen mrapa topin nese topi godet reketen1
-        if (topi.getY() >= reketa1.y_position && topi.getY() <= reketa1.y_position + 70) {
+        if (topi.getY() >= (reketa1.y_position - 20) && topi.getY() <= reketa1.y_position + 70) {
             if (topi.getX() >= 38 && topi.getX() <= 42){
-                topi.setDrejtimiX(-topi.levizX);
+                topi.setDrejtimiX(Math.abs(topi.levizX));
             }
         }
         //Ktehen mrapa topin nese topi godet reketen2
-        if (topi.getY() >= reketa2.y_position && topi.getY() <= reketa2.y_position + 70) {
+        if (topi.getY() >= (reketa2.y_position - 20) && topi.getY() <= (reketa2.y_position + 70)) {
             if (topi.getX() >= 792 && topi.getX() <= 798) {
-                topi.setDrejtimiX(-topi.levizX);
+                topi.setDrejtimiX(-Math.abs(topi.levizX));
             }
-        } 
+        }  
 
         // Shton pike lojetarit nese lojetari tjeter nuk godet topin
         if (topi.pozitaX < 2) {
